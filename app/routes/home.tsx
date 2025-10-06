@@ -13,11 +13,14 @@ export function loader({ context }: Route.LoaderArgs) {
 }
 function HeaderBar(){
     return (
-      <header>
-        <button>example1</button>
-        <button>example2</button>
-        <button>example3</button>
-      </header>
+        <header class = "bg-black m-1">
+            <p> class = "text-white"EƎ</p>
+            <div class = "object-right-top">
+                <button>Home</button>
+                <button>About Us</button>
+                <button>Our Site Models</button>
+            </div>
+        </header>
     );
 }
 export default function Home({ loaderData }: Route.ComponentProps) {
