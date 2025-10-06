@@ -15,7 +15,8 @@ function header(){
     return (
       <header>
         <button>example1</button>
-        <button>example2</button><button>example3</button>
+        <button>example2</button>
+        <button>example3</button>
         <button>example3</button>
       </header>
     );
