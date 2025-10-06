@@ -13,12 +13,14 @@ export function loader({ context }: Route.LoaderArgs) {
 }
 function HeaderBar(){
     return (
-        <header class = "bg-black m-1 inline">
+        <header class = "bg-black m-1">
+            <div class = "inline">
             <p class = "text-white">EƎ</p>
-            <div class = "object-right-top text-white">
-                <button>Home</button>
-                <button>About Us</button>
-                <button>Our Site Models</button>
+                <div class = "object-right-top text-white">
+                    <button>Home</button>
+                    <button>About Us</button>
+                    <button>Our Site Models</button>
+                </div>
             </div>
         </header>
     );
