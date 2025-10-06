@@ -13,7 +13,7 @@ export function loader({ context }: Route.LoaderArgs) {
 }
 function HeaderBar(){
     return (
-        <header class = "bg-black m-1 inline-grid">
+        <header class = "bg-black m-1 inline">
             <p class = "text-white">EƎ</p>
             <div class = "object-right-top text-white">
                 <button>Home</button>
