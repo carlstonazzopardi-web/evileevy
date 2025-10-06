@@ -11,7 +11,7 @@ export function meta({}: Route.MetaArgs) {
 export function loader({ context }: Route.LoaderArgs) {
   return { message: context.cloudflare.env.VALUE_FROM_CLOUDFLARE };
 }
-function headerbar(){
+export function headerbar(){
     return (
       <header>
         <button>example1</button>
