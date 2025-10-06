@@ -16,7 +16,7 @@ function HeaderBar(){
         <header class = "bg-black m-1">
             <div class = "inline">
             <p class = "text-white">EƎ</p>
-                <div class = "object-right-top text-white">
+                <div class = "text-white">
                     <button>Home</button>
                     <button>About Us</button>
                     <button>Our Site Models</button>
