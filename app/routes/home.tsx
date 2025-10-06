@@ -21,5 +21,9 @@ function headerbar(){
     );
 }
 export default function Home({ loaderData }: Route.ComponentProps) {
-  return <headerbar/>;
+    return (
+            <div>
+            <headerbar/>
+            </div>
+    );
 }
