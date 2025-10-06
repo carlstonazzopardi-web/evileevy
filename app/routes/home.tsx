@@ -11,7 +11,7 @@ export function meta({}: Route.MetaArgs) {
 export function loader({ context }: Route.LoaderArgs) {
   return { message: context.cloudflare.env.VALUE_FROM_CLOUDFLARE };
 }
-export function headerbar(){
+function HeaderBar(){
     return (
       <header>
         <button>example1</button>
@@ -23,7 +23,7 @@ export function headerbar(){
 export default function Home({ loaderData }: Route.ComponentProps) {
     return (
             <div>
-            <headerbar/>
+            <HeaderBar/>
             </div>
     );
 }
