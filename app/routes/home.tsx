@@ -11,16 +11,15 @@ export function meta({}: Route.MetaArgs) {
 export function loader({ context }: Route.LoaderArgs) {
   return { message: context.cloudflare.env.VALUE_FROM_CLOUDFLARE };
 }
-function header(){
+function headerbar(){
     return (
       <header>
         <button>example1</button>
         <button>example2</button>
         <button>example3</button>
-        <button>example3</button>
       </header>
     );
 }
 export default function Home({ loaderData }: Route.ComponentProps) {
-  return <header/>;
+  return <headerbar/>;
 }
