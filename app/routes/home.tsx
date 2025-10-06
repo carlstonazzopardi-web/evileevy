@@ -13,9 +13,9 @@ export function loader({ context }: Route.LoaderArgs) {
 }
 function HeaderBar(){
     return (
-        <header class = "bg-black m-1">
-            <p> class = "text-white"EƎ</p>
-            <div class = "object-right-top">
+        <header class = "bg-black m-1 inline-grid">
+            <p class = "text-white">EƎ</p>
+            <div class = "object-right-top text-white">
                 <button>Home</button>
                 <button>About Us</button>
                 <button>Our Site Models</button>
